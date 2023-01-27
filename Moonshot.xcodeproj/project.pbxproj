@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0838F02E2983C53A00AC2FDE /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0838F02D2983C53A00AC2FDE /* Color-Theme.swift */; };
 		084671A629810EA1006B1291 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084671A529810EA1006B1291 /* MoonshotApp.swift */; };
 		084671A829810EA1006B1291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084671A729810EA1006B1291 /* ContentView.swift */; };
 		084671AA29810EA3006B1291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084671A929810EA3006B1291 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0838F02D2983C53A00AC2FDE /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		084671A229810EA1006B1291 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		084671A529810EA1006B1291 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		084671A729810EA1006B1291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				087152452981ABA200CB810D /* missions.json */,
 				084671A929810EA3006B1291 /* Assets.xcassets */,
 				084671AB29810EA3006B1291 /* Preview Content */,
+				0838F02D2983C53A00AC2FDE /* Color-Theme.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				084671A829810EA1006B1291 /* ContentView.swift in Sources */,
+				0838F02E2983C53A00AC2FDE /* Color-Theme.swift in Sources */,
 				0871524B2981ABCB00CB810D /* Astronauts.swift in Sources */,
 				084731D729828A9900193445 /* Missions.swift in Sources */,
 				084671A629810EA1006B1291 /* MoonshotApp.swift in Sources */,
