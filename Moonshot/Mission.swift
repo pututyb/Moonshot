@@ -32,20 +32,22 @@ struct Missions: View {
                         .frame(maxWidth: geometry.size.width * 0.6)
                         .padding(.top)
                     
+                    if let date = mission.launchDate {
+                        Label(date.formatted(date: .complete, time: .omitted), systemImage: "calendar")
+                            .padding(.bottom, 5)
+                    }
+                    
+                    
                     VStack(alignment: .leading) {
+                        CustomDivider()
+                        
                         Text("Mission Highlights")
                             .font(.title.bold())
                             .padding(.bottom, 5)
                         
-                        Rectangle()
-                            .frame(height: 2)
-                            .background(.lightBackground)
-                        
                         Text(mission.description)
                         
-                        Rectangle()
-                            .frame(height: 2)
-                            .background(.lightBackground)
+                       CustomDivider()
                         
                         Text("Crew")
                             .font(.title.bold())

@@ -19,6 +19,7 @@
 		087152482981ABA200CB810D /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 087152462981ABA200CB810D /* astronauts.json */; };
 		0871524B2981ABCB00CB810D /* Astronauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871524A2981ABCB00CB810D /* Astronauts.swift */; };
 		0871524E2981AC5600CB810D /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871524D2981AC5600CB810D /* Connection.swift */; };
+		08C5EAE32984E8D60069D3C8 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C5EAE22984E8D60069D3C8 /* CustomDivider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		087152462981ABA200CB810D /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		0871524A2981ABCB00CB810D /* Astronauts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronauts.swift; sourceTree = "<group>"; };
 		0871524D2981AC5600CB810D /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		08C5EAE22984E8D60069D3C8 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
 		08C96F29298122EA0012ABB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				087152452981ABA200CB810D /* missions.json */,
 				084671A929810EA3006B1291 /* Assets.xcassets */,
 				084671AB29810EA3006B1291 /* Preview Content */,
+				08C5EAE22984E8D60069D3C8 /* CustomDivider.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				084671A629810EA1006B1291 /* MoonshotApp.swift in Sources */,
 				0844A8872984019000F08F68 /* AstronautsView.swift in Sources */,
 				0871524E2981AC5600CB810D /* Connection.swift in Sources */,
+				08C5EAE32984E8D60069D3C8 /* CustomDivider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
